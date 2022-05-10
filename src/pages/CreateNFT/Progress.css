@@ -5,7 +5,7 @@
   }
   
   .stepper-container-horizontal {
-    border: 1px solid #65dfc9;
+    border: 1px solid #00ffea;
     /* box-shadow: 0 0 13px #333; */
     border-radius: 3px;
     /* margin: 40px auto;
@@ -22,7 +22,7 @@
 } */
 
 .stepper-container-horizontal {
-  border: 1px solid #65dfc9;
+  border: 1px solid #00ffea;
   box-shadow: 0 0 13px #333;
   border-radius: 3px;
   margin: 40px auto;

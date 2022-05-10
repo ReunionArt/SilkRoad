@@ -55,9 +55,9 @@ u {
   width: 160px;
   height: 60px;
   letter-spacing: 0.2rem;
-  background: #00002e;
+  background: #00ffea;
   position: relative;
-  background: #00002e;
+  background: #00ffea;
   margin-bottom: 25px;
   border-radius: 32px;
   text-align: center;
@@ -67,8 +67,8 @@ u {
 }
 .step-btn:hover {
   opacity: 0.3;
-  box-shadow: -6px -6px 10px rgba(33, 48, 116, 0.8),
-    6px 6px 10px rgba(19, 24, 70, 0.377);
+  box-shadow: -6px -6px 10px rgba(33, 116, 112, 0.8),
+    6px 6px 10px rgba(19, 70, 69, 0.377);
 }
 .step-btn:active {
   opacity: 0.8;
@@ -132,7 +132,7 @@ u {
 .image{
   /* background-color: red; */
   display: flex;
-  margin-top: 100%;
+  margin-top: 30%;
   margin-left: -5%;
   position: relative;
 }

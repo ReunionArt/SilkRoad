@@ -6,7 +6,7 @@ import Header from "../../components/Header/Header";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import { WalletNotConnectedError } from "@solana/wallet-adapter-base";
 import { Button } from "react-bootstrap";
-import image from "./../../img/stars.png";
+import image from "./../../img/background.png";
 import image1 from "./../../img/mountain_front.png";
 import image2 from "./../../img/moon.png";
 import CustomButton from "../../components/customButton/CustomButton";
@@ -51,7 +51,7 @@ const Home = () => {
   return (
     <>
       <section>
-        <img
+      <img
           className="img"
           src={image}
           id="background"
@@ -65,16 +65,19 @@ const Home = () => {
           style={{
             transform: `translateY(${offsetY * 0.4}px)`,
             marginBottom: `${margin}`,
+            marginRight: '500px',
           }}
         >
           {" "}
-          Silk Road
+          RIAD
         </h2>
         <a
           href="#body"
           className="btn"
           id="btns"
-          style={{ transform: `translateY(${offsetY * 0.3}px)` }}
+          style={{ transform: `translateY(${offsetY * 0.3}px)`, 
+          marginRight: '300px',
+        }}
         >
           NFTs
         </a>

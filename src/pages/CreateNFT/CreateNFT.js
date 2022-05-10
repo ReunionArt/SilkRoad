@@ -66,7 +66,7 @@ export default function CreateNFT() {
     <div className="nft-container">
       <Header heading="Create NFT" />
       <div className="pbar">
-        <progress variant="light" className="pbar-item" max="2" value={page} />
+        <progress className="pbar-item" max="2" value={page} />
       </div>
 
       {/* the content goes here */}
@@ -110,7 +110,7 @@ function OnboardingOne({ data, update }) {
           <u>Step 1:</u> Choose Item Type
         </div>
         <div className="image">
-          <img src={treasure} alt="" />
+          <img src={treasure} alt="treasure" width={500} />
         </div>
       </div>
       <div className="options">
@@ -161,7 +161,7 @@ function OnboardingTwo({ data, update }) {
           <u>Step 2:</u> Upload Files
         </div>
         <div className="image">
-          <img src={treasure} alt="" />
+          <img src={treasure} alt="treasure" width={500} />
         </div>
       </div>
       <div className="options">
@@ -179,7 +179,7 @@ function OnboardingThree(props) {
           <u>Step 2:</u> Enter Details
         </div>
         <div className="image">
-          <img src={treasure} alt="" />
+          <img src={treasure} alt="treasure" width={500} />
         </div>
       </div>
       <div className="options">
@@ -197,7 +197,7 @@ function OnboardingFour({ data, update }) {
           <u>Step 3:</u> Launch
         </div>
         <div className="image">
-          <img src={treasure} alt="" />
+          <img src={treasure} alt="treasure" width={500} />
         </div>
       </div>
       <div className="options">

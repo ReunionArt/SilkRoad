@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import { useWallet } from '@solana/wallet-adapter-react';
 import $ from 'jquery';
+import image from "./../../img/RICLlogo.png";
 import './Navbar.css';
 require('@solana/wallet-adapter-react-ui/styles.css');
 const Navbar = () => {
@@ -48,8 +49,14 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg navbar-mainbg" id="nav">
     
       <NavLink className="navbar-brand navbar-logo ml-auto" to="/" exact>
-      
-        <div style={{fontSize: 35}}>SILKROAD</div>
+      <img
+          className="img"
+          src={image}
+          id="RICL"
+          height={50}
+          width={50}
+        />
+        <div style={{fontSize: 35}}>  Reunion Island Art Digitizer</div>
       </NavLink>
     
      
@@ -94,7 +101,7 @@ const Navbar = () => {
               </NavLink>
             </li>
         </ul>
-        <WalletMultiButton style={{backgroundColor: "#c212b3"}}/>
+        <WalletMultiButton style={{backgroundColor: "#00ffea"}}/>
       </div>
       </div>
   </nav>
